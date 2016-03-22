@@ -30,26 +30,26 @@ Quick Start
  ```
        q - quit Rover
        ? - show Rover manual
-     j/k - move cursor down/up
-     J/K - move cursor down/up 10 lines
+     t/s - move cursor down/up
+     T/S - move cursor down/up 10 lines
      g/G - move cursor to top/bottom of listing
-       l - enter selected directory
-       h - go to parent directory
-       H - go to $HOME directory
-       r - refresh directory listing
+       r - enter selected directory
+       c - go to parent directory
+       C - go to $HOME directory
+       R - refresh directory listing
   RETURN - open $SHELL on the current directory
    SPACE - open $PAGER with the selected file
        e - open $EDITOR with the selected file
        o - open $ROVER_OPEN with the selected file
        / - start incremental search (RETURN to finish)
-   f/d/s - toggle file/directory/hidden listing
+   f/d/h - toggle file/directory/hidden listing
      n/N - create new file/directory
-       R - rename selected file or directory
+       K - rename selected file or directory
        D - delete selected file or (empty) directory
        m - toggle mark on the selected entry
        M - toggle mark on all visible entries
        a - mark all visible entries
-   X/C/V - delete/copy/move all marked entries
+   X/Y/V - delete/copy/move all marked entries
      0-9 - change tab
  ```
 
